@@ -6,3 +6,11 @@ itsdangerous==2.2.0
 Jinja2==3.1.6
 MarkupSafe==3.0.3
 Werkzeug==3.1.5
+langchain==0.0.269
+
+
+langchain-openai
+openai
+faiss-cpu
+
+langchain_core
