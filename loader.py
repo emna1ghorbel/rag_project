@@ -9,7 +9,7 @@ from langchain.docstore.document import Document
 if sys.platform == "win32":
     sys.stdout.reconfigure(encoding='utf-8')
 
-def clean_cti_text(text)
+def clean_cti_text(text):
     """
     Nettoie le texte en préservant les URLs, points et caractères techniques.
     Indispensable pour la Cyber Threat Intelligence (IoC).
